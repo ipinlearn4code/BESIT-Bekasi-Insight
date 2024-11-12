@@ -74,15 +74,15 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                                 <label for="articleCategory">Kategori</label>
                                 <select class="form-control" name="category" id="articleCategory">
                                     <option <?php if ($category == 'Livestyle')
-                                        echo 'selected'; ?>>Livestyle</option>
+                                        echo 'selected'; ?>>Lifestyle</option>
                                     <option <?php if ($category == 'Industry')
                                         echo 'selected'; ?>>Industry</option>
                                     <option <?php if ($category == 'Tourizm')
-                                        echo 'selected'; ?>>Tourizm</option>
+                                        echo 'selected'; ?>>Tourism</option>
                                     <option <?php if ($category == 'Environment')
                                         echo 'selected'; ?>>Environment</option>
                                     <option <?php if ($category == 'Comunity')
-                                        echo 'selected'; ?>>Comunity</option>
+                                        echo 'selected'; ?>>Community</option>
                                 </select>
                             </div>
                             <div class="form-group">

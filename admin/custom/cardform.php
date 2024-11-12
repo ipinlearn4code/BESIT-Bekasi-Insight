@@ -7,11 +7,11 @@
         <div class="form-group">
             <label for="articleCategory">Kategori</label>
             <select class="form-control" name="category" id="articleCategory">
-                <option>Livestyle</option>
+                <option>Lifestyle</option>
                 <option>Industry</option>
-                <option>Tourizm</option>
+                <option>Tourism</option>
                 <option>Environment</option>
-                <option>Comunity</option>
+                <option>Community</option>
             </select>
         </div>
         <div class="form-group">
